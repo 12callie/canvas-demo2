@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#canvas {
+  display: block; /*canvas默认是inline元素，设置宽高是没用的，所以要改样式*/
+}
